@@ -1,0 +1,659 @@
+Traffic                                                                                                                 PAGE 1
+                         1     ORG 00H
+                         2     LJMP MAIN
+                         3     ORG 30H
+                         4     MAIN:MOV P1,#00H
+                         5          MOV DPTR,#200H
+                         6     A1:MOV P1,#24H
+                         7        MOV P0,#11H
+                         8        MOV P2,#0A4H
+                         9
+                        10        MOV P3,#90H
+                        11        ACALL DELAY
+                        12        MOV P3,#80H
+                        13        ACALL DELAY
+                        14        MOV P3,#0F8H
+                        15        ACALL DELAY
+                        16        MOV P3,#82H
+                        17        ACALL DELAY
+                        18        MOV P3,#92H
+                        19        ACALL DELAY
+                        20        MOV P3,#99H
+                        21        ACALL DELAY
+                        22        MOV P3,#0B0H
+                        23        ACALL DELAY
+                        24        MOV P3,#0A4H
+                        25        ACALL DELAY
+                        26        MOV P3,#0F9H
+                        27        ACALL DELAY
+                        28        MOV P3,#40H
+                        29        MOV P2,#0F9H
+                        30
+                        31        MOV P3,#90H
+                        32        ACALL DELAY
+                        33        MOV P3,#80H
+                        34        ACALL DELAY
+                        35        MOV P3,#0F8H
+                        36        ACALL DELAY
+                        37        MOV P3,#82H
+                        38        ACALL DELAY
+                        39        MOV P3,#92H
+                        40        ACALL DELAY
+                        41        MOV P3,#99H
+                        42        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        43        MOV P3,#0B0H
+                        44        ACALL DELAY
+                        45        MOV P3,#0A4H
+                        46        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        47        MOV P3,#0F9H
+                        48        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        49        MOV P3,#40H
+                        50        MOV P2,#40H
+                        51
+                        52        MOV P3,#90H
+                        53        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        54        MOV P3,#80H
+                        55        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        56        MOV P3,#0F8H
+                        57        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        58        MOV P3,#82H
+                        59        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        60        MOV P3,#92H
+                        61        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        62        MOV P3,#99H
+                        63        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        64        MOV P2,#0B0H
+                        65        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        66        MOV P3,#0A4H
+                        67        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        68        MOV P3,#0F9H
+                        69        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        70        MOV P3,#40H
+                        71
+                        72     B1:MOV P1,#14H
+                        73        MOV P0,#0CH
+                        74        MOV P2,#00H
+                        75        MOV P3,#00H
+                        76        MOV P2,#0A4H
+                        77
+                        78        MOV P3,#90H
+                        79        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        80        MOV P3,#80H
+                        81        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        82        MOV P3,#0F8H
+                        83        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        84        MOV P3,#82H
+                        85        ACALL DEALAY
+****ERROR:Symbolnotdefined:dealay
+                        86        MOV P3,#92H
+                        87        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        88        MOV P3,#99H
+                        89        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        90        MOV P3,#0B0H
+                        91        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        92        MOV P3,#0A4H
+                        93        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        94        MOV P3,#0F9H
+                        95        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                        96        MOV P3,#40H
+                        97        MOV P2,#0F9H
+                        98
+                        99        MOV P3,#90H
+                       100        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       101        MOV P3,#80H
+                       102        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       103        MOV P3,#0F8H
+                       104        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       105        MOV P3,#82H
+                       106        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       107        MOV P3,#92H
+                       108        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       109        MOV P3,#99H
+                       110        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       111        MOV P3,#0B0H
+                       112        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       113        MOV P3,#0A4H
+                       114        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       115        MOV P3,#0F9H
+                       116        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       117        MOV P3,#40H
+                       118        MOV P2,#40H
+                       119
+                       120        MOV P3,#90H
+                       121        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       122        MOV P3,#80H
+                       123        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       124        MOV P3,#0F8H
+                       125        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       126        MOV P3,#82H
+                       127        ACALL DELAY
+                       128        MOV P3,#92H
+                       129        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       130        MOV P3,#99H
+                       131        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       132        MOV P3,#0B0H
+                       133        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       134        MOV P3,#0A4H
+                       135        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       136        MOV P3,#0F9H
+                       137        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       138        MOV P3,#40H
+                       139
+                       140     C1:MOV P1,#0AH
+                       141        MOV P0,#24H
+                       142        MOV P2,#0A4H
+                       143
+                       144        MOV P3,#90H
+                       145        ACALL DELAY
+                       146        MOV P3,#80H
+                       147        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       148        MOV P3,#0F8H
+                       149        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       150        MOV P3,#82H
+                       151        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       152        MOV P3,#92H
+                       153        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       154        MOV P3,#99H
+                       155        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       156        MOV P3,#0B0H
+                       157        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       158        MOV P3,#0A4H
+                       159        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       160        MOV P3,#0F9H
+                       161        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       162        MOV P3,#40H
+                       163        MOV P2,#0F9H
+                       164
+                       165        MOV P3,#90H
+                       166        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       167        MOV P3,#80H
+                       168        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       169        MOV P3,#0F8H
+                       170        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       171        MOV P3,#82H
+                       172        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       173        MOV P3,#92H
+                       174        ACALL DELAY
+                       175        MOV P3,#99H
+                       176        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       177        MOV P3,#0B0H
+                       178        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       179        MOV P3,#0A4H
+                       180        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       181        MOV P3,#0F9H
+                       182        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       183        MOV P3,#40H
+                       184        MOV P2,#40H
+                       185
+                       186        MOV P3,#90H
+                       187        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       188        MOV P3,#80H
+                       189        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       190        MOV P3,#0F8H
+                       191        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       192        MOV P3,#82H
+                       193        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       194        MOV P3,#92H
+                       195        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       196        MOV P3,#99H
+                       197        ACALL DELAY
+                       198        MOV P3,#0B0H
+                       199        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       200        MOV P3,#0A4H
+                       201        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       202        MOV P3,#0F9H
+                       203        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       204        MOV P3,#40H
+                       205
+                       206     D1:MOV P1,#21H
+                       207        MOV P0,#22H
+                       208        MOV P2,#0A4H
+                       209
+                       210        MOV P3,#90H
+                       211        ACALL DELAY
+                       212        MOV P3,#80H
+                       213        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       214        MOV P3,#0F8H
+                       215        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       216        MOV P3,#82H
+                       217        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       218        MOV P3,#92H
+                       219        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       220        MOV P3,#99H
+                       221        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       222        MOV P3,#0B0H
+                       223        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       224        MOV P3,#0A4H
+                       225        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       226        MOV P3,#0F9H
+                       227        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       228        MOV P3,#40H
+                       229        MOV P2,#0F9H
+                       230
+                       231        MOV P3,#90H
+                       232        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       233        MOV P3,#80H
+                       234        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       235        MOV P3,#0F8H
+                       236        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       237        MOV P3,#82H
+                       238        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       239        MOV P3,#92H
+                       240        ACALL DELAY
+                       241        MOV P3,#99H
+                       242        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       243        MOV P3,#0B0H
+                       244        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       245        MOV P3,#0A4H
+                       246        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       247        MOV P3,#0F9H
+                       248        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       249        MOV P3,#40H
+                       250        MOV P2,#40H
+                       251
+                       252        MOV P3,#90H
+                       253        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       254        MOV P3,#80H
+                       255        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       256        MOV P3,#0F8H
+                       257        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       258        MOV P3,#82H
+                       259        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       260        MOV P3,#92H
+                       261        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       262        MOV P3,#99H
+                       263        ACALL DELAY
+                       264        MOV P3,#0B0H
+                       265        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       266        MOV P3,#0A4H
+                       267        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       268        MOV P3,#0F9H
+                       269        ACALL DEALY
+****ERROR:Symbolnotdefined:dealy
+                       270        MOV P3,#40H
+                       271        LJMP MAIN
+                       272
+                       273        DELAY:MOV R4,#50H
+                       274              MOV R5,#20H
+                       275              MOV R6,#0FFH
+                       276              DJNZ R6,H1
+****ERROR:Symbolnotdefined:h1
+                       277              DJNZ R5,H2
+****ERROR:Symbolnotdefined:h2
+                       278              DJNZ R4,H3
+****ERROR:Symbolnotdefined:h3
+                       279              RET
+                       280
+                       281
+                       282
+                       283
+                       284
+                       285
+                       286
+****WARNING:Missing`END'directive
+ASSEMBLY COMPLETE, NO ERRORS FOUND, 90 WARNINGS
+
+
+ERROR SUMMARY:
+Line 42, ERROR:Symbolnotdefined:dealy
+Line 47, ERROR:Symbolnotdefined:dealy
+Line 50, ERROR:Symbolnotdefined:dealy
+Line 56, ERROR:Symbolnotdefined:dealy
+Line 59, ERROR:Symbolnotdefined:dealy
+Line 62, ERROR:Symbolnotdefined:dealy
+Line 65, ERROR:Symbolnotdefined:dealy
+Line 68, ERROR:Symbolnotdefined:dealy
+Line 71, ERROR:Symbolnotdefined:dealy
+Line 74, ERROR:Symbolnotdefined:dealy
+Line 77, ERROR:Symbolnotdefined:dealy
+Line 80, ERROR:Symbolnotdefined:dealy
+Line 91, ERROR:Symbolnotdefined:dealy
+Line 94, ERROR:Symbolnotdefined:dealy
+Line 97, ERROR:Symbolnotdefined:dealy
+Line 100, ERROR:Symbolnotdefined:dealay
+Line 103, ERROR:Symbolnotdefined:dealy
+Line 106, ERROR:Symbolnotdefined:dealy
+Line 109, ERROR:Symbolnotdefined:dealy
+Line 112, ERROR:Symbolnotdefined:dealy
+Line 115, ERROR:Symbolnotdefined:dealy
+Line 121, ERROR:Symbolnotdefined:dealy
+Line 124, ERROR:Symbolnotdefined:dealy
+Line 127, ERROR:Symbolnotdefined:dealy
+Line 130, ERROR:Symbolnotdefined:dealy
+Line 133, ERROR:Symbolnotdefined:dealy
+Line 136, ERROR:Symbolnotdefined:dealy
+Line 139, ERROR:Symbolnotdefined:dealy
+Line 142, ERROR:Symbolnotdefined:dealy
+Line 145, ERROR:Symbolnotdefined:dealy
+Line 151, ERROR:Symbolnotdefined:dealy
+Line 154, ERROR:Symbolnotdefined:dealy
+Line 157, ERROR:Symbolnotdefined:dealy
+Line 162, ERROR:Symbolnotdefined:dealy
+Line 165, ERROR:Symbolnotdefined:dealy
+Line 168, ERROR:Symbolnotdefined:dealy
+Line 171, ERROR:Symbolnotdefined:dealy
+Line 174, ERROR:Symbolnotdefined:dealy
+Line 185, ERROR:Symbolnotdefined:dealy
+Line 188, ERROR:Symbolnotdefined:dealy
+Line 191, ERROR:Symbolnotdefined:dealy
+Line 194, ERROR:Symbolnotdefined:dealy
+Line 197, ERROR:Symbolnotdefined:dealy
+Line 200, ERROR:Symbolnotdefined:dealy
+Line 203, ERROR:Symbolnotdefined:dealy
+Line 206, ERROR:Symbolnotdefined:dealy
+Line 212, ERROR:Symbolnotdefined:dealy
+Line 215, ERROR:Symbolnotdefined:dealy
+Line 218, ERROR:Symbolnotdefined:dealy
+Line 221, ERROR:Symbolnotdefined:dealy
+Line 226, ERROR:Symbolnotdefined:dealy
+Line 229, ERROR:Symbolnotdefined:dealy
+Line 232, ERROR:Symbolnotdefined:dealy
+Line 235, ERROR:Symbolnotdefined:dealy
+Line 241, ERROR:Symbolnotdefined:dealy
+Line 244, ERROR:Symbolnotdefined:dealy
+Line 247, ERROR:Symbolnotdefined:dealy
+Line 250, ERROR:Symbolnotdefined:dealy
+Line 253, ERROR:Symbolnotdefined:dealy
+Line 258, ERROR:Symbolnotdefined:dealy
+Line 261, ERROR:Symbolnotdefined:dealy
+Line 264, ERROR:Symbolnotdefined:dealy
+Line 275, ERROR:Symbolnotdefined:dealy
+Line 278, ERROR:Symbolnotdefined:dealy
+Line 281, ERROR:Symbolnotdefined:dealy
+Line 284, ERROR:Symbolnotdefined:dealy
+Line 287, ERROR:Symbolnotdefined:dealy
+Line 290, ERROR:Symbolnotdefined:dealy
+Line 293, ERROR:Symbolnotdefined:dealy
+Line 296, ERROR:Symbolnotdefined:dealy
+Line 302, ERROR:Symbolnotdefined:dealy
+Line 305, ERROR:Symbolnotdefined:dealy
+Line 308, ERROR:Symbolnotdefined:dealy
+Line 311, ERROR:Symbolnotdefined:dealy
+Line 316, ERROR:Symbolnotdefined:dealy
+Line 319, ERROR:Symbolnotdefined:dealy
+Line 322, ERROR:Symbolnotdefined:dealy
+Line 325, ERROR:Symbolnotdefined:dealy
+Line 331, ERROR:Symbolnotdefined:dealy
+Line 334, ERROR:Symbolnotdefined:dealy
+Line 337, ERROR:Symbolnotdefined:dealy
+Line 340, ERROR:Symbolnotdefined:dealy
+Line 343, ERROR:Symbolnotdefined:dealy
+Line 348, ERROR:Symbolnotdefined:dealy
+Line 351, ERROR:Symbolnotdefined:dealy
+Line 354, ERROR:Symbolnotdefined:dealy
+Line 362, ERROR:Symbolnotdefined:h1
+Line 364, ERROR:Symbolnotdefined:h2
+Line 366, ERROR:Symbolnotdefined:h3
+Line 375, WARNING:Missing`END'directive
+
+SYMBOL TABLE:
+??MCU_8051_IDE . . . . . . . . . . .  N  NUMB  8051H  NOT USED
+??VERSION. . . . . . . . . . . . . .  N  NUMB  0149H  NOT USED
+A1 . . . . . . . . . . . . . . . . .  C  ADDR  0036H  NOT USED
+AC . . . . . . . . . . . . . . . . .  B  ADDR  00D6H  NOT USED
+ACC. . . . . . . . . . . . . . . . .  D  ADDR  00E0H  NOT USED
+ACSR . . . . . . . . . . . . . . . .  D  ADDR  0097H  NOT USED
+ADCF . . . . . . . . . . . . . . . .  D  ADDR  00F6H  NOT USED
+ADCLK. . . . . . . . . . . . . . . .  D  ADDR  00F2H  NOT USED
+ADCON. . . . . . . . . . . . . . . .  D  ADDR  00F3H  NOT USED
+ADDH . . . . . . . . . . . . . . . .  D  ADDR  00F5H  NOT USED
+ADDL . . . . . . . . . . . . . . . .  D  ADDR  00F4H  NOT USED
+AUXR . . . . . . . . . . . . . . . .  D  ADDR  008EH  NOT USED
+AUXR1. . . . . . . . . . . . . . . .  D  ADDR  00A2H  NOT USED
+B. . . . . . . . . . . . . . . . . .  D  ADDR  00F0H  NOT USED
+B1 . . . . . . . . . . . . . . . . .  C  ADDR  00D5H  NOT USED
+BDRCON . . . . . . . . . . . . . . .  D  ADDR  009BH  NOT USED
+BDRCON_1 . . . . . . . . . . . . . .  D  ADDR  009CH  NOT USED
+BRL. . . . . . . . . . . . . . . . .  D  ADDR  009AH  NOT USED
+C1 . . . . . . . . . . . . . . . . .  C  ADDR  017AH  NOT USED
+CCAP0H . . . . . . . . . . . . . . .  D  ADDR  00FAH  NOT USED
+CCAP0L . . . . . . . . . . . . . . .  D  ADDR  00EAH  NOT USED
+CCAP1H . . . . . . . . . . . . . . .  D  ADDR  00FBH  NOT USED
+CCAP1L . . . . . . . . . . . . . . .  D  ADDR  00EBH  NOT USED
+CCAP2H . . . . . . . . . . . . . . .  D  ADDR  00FCH  NOT USED
+CCAP3H . . . . . . . . . . . . . . .  D  ADDR  00FDH  NOT USED
+CCAP4H . . . . . . . . . . . . . . .  D  ADDR  00FEH  NOT USED
+CCAPL2H. . . . . . . . . . . . . . .  D  ADDR  00FCH  NOT USED
+CCAPL2L. . . . . . . . . . . . . . .  D  ADDR  00ECH  NOT USED
+CCAPL3H. . . . . . . . . . . . . . .  D  ADDR  00FDH  NOT USED
+CCAPL3L. . . . . . . . . . . . . . .  D  ADDR  00EDH  NOT USED
+CCAPL4H. . . . . . . . . . . . . . .  D  ADDR  00FEH  NOT USED
+CCAPL4L. . . . . . . . . . . . . . .  D  ADDR  00EEH  NOT USED
+CCAPM0 . . . . . . . . . . . . . . .  D  ADDR  00DAH  NOT USED
+CCAPM1 . . . . . . . . . . . . . . .  D  ADDR  00DBH  NOT USED
+CCAPM2 . . . . . . . . . . . . . . .  D  ADDR  00DCH  NOT USED
+CCAPM3 . . . . . . . . . . . . . . .  D  ADDR  00DDH  NOT USED
+CCAPM4 . . . . . . . . . . . . . . .  D  ADDR  00DEH  NOT USED
+CCF0 . . . . . . . . . . . . . . . .  B  ADDR  00D8H  NOT USED
+CCF1 . . . . . . . . . . . . . . . .  B  ADDR  00D9H  NOT USED
+CCF2 . . . . . . . . . . . . . . . .  B  ADDR  00DAH  NOT USED
+CCF3 . . . . . . . . . . . . . . . .  B  ADDR  00DBH  NOT USED
+CCF4 . . . . . . . . . . . . . . . .  B  ADDR  00DCH  NOT USED
+CCON . . . . . . . . . . . . . . . .  D  ADDR  00D8H  NOT USED
+CFINT. . . . . . . . . . . . . . . .  C  ADDR  0033H  NOT USED
+CH . . . . . . . . . . . . . . . . .  D  ADDR  00F9H  NOT USED
+CKCON. . . . . . . . . . . . . . . .  D  ADDR  008FH  NOT USED
+CKCON0 . . . . . . . . . . . . . . .  D  ADDR  008FH  NOT USED
+CKRL . . . . . . . . . . . . . . . .  D  ADDR  0097H  NOT USED
+CKSEL. . . . . . . . . . . . . . . .  D  ADDR  0085H  NOT USED
+CL . . . . . . . . . . . . . . . . .  D  ADDR  00E9H  NOT USED
+CLKREG . . . . . . . . . . . . . . .  D  ADDR  008FH  NOT USED
+CMOD . . . . . . . . . . . . . . . .  D  ADDR  00D9H  NOT USED
+CPRL2. . . . . . . . . . . . . . . .  B  ADDR  00C8H  NOT USED
+CR . . . . . . . . . . . . . . . . .  B  ADDR  00DEH  NOT USED
+CT2. . . . . . . . . . . . . . . . .  B  ADDR  00C9H  NOT USED
+CY . . . . . . . . . . . . . . . . .  B  ADDR  00D7H  NOT USED
+D1 . . . . . . . . . . . . . . . . .  C  ADDR  0219H  NOT USED
+DELAY. . . . . . . . . . . . . . . .  C  ADDR  02BBH
+DP0H . . . . . . . . . . . . . . . .  D  ADDR  0083H  NOT USED
+DP0L . . . . . . . . . . . . . . . .  D  ADDR  0082H  NOT USED
+DP1H . . . . . . . . . . . . . . . .  D  ADDR  0085H  NOT USED
+DP1L . . . . . . . . . . . . . . . .  D  ADDR  0084H  NOT USED
+DPH. . . . . . . . . . . . . . . . .  D  ADDR  0083H  NOT USED
+DPL. . . . . . . . . . . . . . . . .  D  ADDR  0082H  NOT USED
+EA . . . . . . . . . . . . . . . . .  B  ADDR  00AFH  NOT USED
+EC . . . . . . . . . . . . . . . . .  B  ADDR  00AEH  NOT USED
+EECON. . . . . . . . . . . . . . . .  D  ADDR  0096H  NOT USED
+ES . . . . . . . . . . . . . . . . .  B  ADDR  00ACH  NOT USED
+ET0. . . . . . . . . . . . . . . . .  B  ADDR  00A9H  NOT USED
+ET1. . . . . . . . . . . . . . . . .  B  ADDR  00ABH  NOT USED
+ET2. . . . . . . . . . . . . . . . .  B  ADDR  00ADH  NOT USED
+EX0. . . . . . . . . . . . . . . . .  B  ADDR  00A8H  NOT USED
+EX1. . . . . . . . . . . . . . . . .  B  ADDR  00AAH  NOT USED
+EXEN2. . . . . . . . . . . . . . . .  B  ADDR  00CBH  NOT USED
+EXF2 . . . . . . . . . . . . . . . .  B  ADDR  00CEH  NOT USED
+EXTI0. . . . . . . . . . . . . . . .  C  ADDR  0003H  NOT USED
+EXTI1. . . . . . . . . . . . . . . .  C  ADDR  0013H  NOT USED
+F0 . . . . . . . . . . . . . . . . .  B  ADDR  00D5H  NOT USED
+FE . . . . . . . . . . . . . . . . .  B  ADDR  009FH  NOT USED
+IE . . . . . . . . . . . . . . . . .  D  ADDR  00A8H  NOT USED
+IE0. . . . . . . . . . . . . . . . .  B  ADDR  0089H  NOT USED
+IE1. . . . . . . . . . . . . . . . .  B  ADDR  008BH  NOT USED
+INT0 . . . . . . . . . . . . . . . .  B  ADDR  00B2H  NOT USED
+INT1 . . . . . . . . . . . . . . . .  B  ADDR  00B3H  NOT USED
+IP . . . . . . . . . . . . . . . . .  D  ADDR  00B8H  NOT USED
+IPH. . . . . . . . . . . . . . . . .  D  ADDR  00B7H  NOT USED
+IPH0 . . . . . . . . . . . . . . . .  D  ADDR  00B7H  NOT USED
+IPH1 . . . . . . . . . . . . . . . .  D  ADDR  00B3H  NOT USED
+IPL0 . . . . . . . . . . . . . . . .  D  ADDR  00B8H  NOT USED
+IPL1 . . . . . . . . . . . . . . . .  D  ADDR  00B2H  NOT USED
+IT0. . . . . . . . . . . . . . . . .  B  ADDR  0088H  NOT USED
+IT1. . . . . . . . . . . . . . . . .  B  ADDR  008AH  NOT USED
+KBE. . . . . . . . . . . . . . . . .  D  ADDR  009DH  NOT USED
+KBF. . . . . . . . . . . . . . . . .  D  ADDR  009EH  NOT USED
+KBLS . . . . . . . . . . . . . . . .  D  ADDR  009CH  NOT USED
+MAIN . . . . . . . . . . . . . . . .  C  ADDR  0030H
+OSCCON . . . . . . . . . . . . . . .  D  ADDR  0086H  NOT USED
+OV . . . . . . . . . . . . . . . . .  B  ADDR  00D2H  NOT USED
+P. . . . . . . . . . . . . . . . . .  B  ADDR  00D0H  NOT USED
+P0 . . . . . . . . . . . . . . . . .  D  ADDR  0080H
+P1 . . . . . . . . . . . . . . . . .  D  ADDR  0090H
+P1M1 . . . . . . . . . . . . . . . .  D  ADDR  00D4H  NOT USED
+P1M2 . . . . . . . . . . . . . . . .  D  ADDR  00E2H  NOT USED
+P2 . . . . . . . . . . . . . . . . .  D  ADDR  00A0H
+P3 . . . . . . . . . . . . . . . . .  D  ADDR  00B0H
+P3M1 . . . . . . . . . . . . . . . .  D  ADDR  00D5H  NOT USED
+P3M2 . . . . . . . . . . . . . . . .  D  ADDR  00E3H  NOT USED
+P4 . . . . . . . . . . . . . . . . .  D  ADDR  00C0H  NOT USED
+P4M1 . . . . . . . . . . . . . . . .  D  ADDR  00D6H  NOT USED
+P4M2 . . . . . . . . . . . . . . . .  D  ADDR  00E4H  NOT USED
+P5 . . . . . . . . . . . . . . . . .  D  ADDR  00E8H  NOT USED
+PC . . . . . . . . . . . . . . . . .  B  ADDR  00BEH  NOT USED
+PCON . . . . . . . . . . . . . . . .  D  ADDR  0087H  NOT USED
+PPCL . . . . . . . . . . . . . . . .  B  ADDR  00BEH  NOT USED
+PS . . . . . . . . . . . . . . . . .  B  ADDR  00BCH  NOT USED
+PSL. . . . . . . . . . . . . . . . .  B  ADDR  00BCH  NOT USED
+PSW. . . . . . . . . . . . . . . . .  D  ADDR  00D0H  NOT USED
+PT0. . . . . . . . . . . . . . . . .  B  ADDR  00B9H  NOT USED
+PT0L . . . . . . . . . . . . . . . .  B  ADDR  00B9H  NOT USED
+PT1. . . . . . . . . . . . . . . . .  B  ADDR  00BBH  NOT USED
+PT1L . . . . . . . . . . . . . . . .  B  ADDR  00BBH  NOT USED
+PT2. . . . . . . . . . . . . . . . .  B  ADDR  00BDH  NOT USED
+PT2L . . . . . . . . . . . . . . . .  B  ADDR  00BDH  NOT USED
+PX0. . . . . . . . . . . . . . . . .  B  ADDR  00B8H  NOT USED
+PX0L . . . . . . . . . . . . . . . .  B  ADDR  00B8H  NOT USED
+PX1. . . . . . . . . . . . . . . . .  B  ADDR  00BAH  NOT USED
+PX1L . . . . . . . . . . . . . . . .  B  ADDR  00BAH  NOT USED
+RB8. . . . . . . . . . . . . . . . .  B  ADDR  009AH  NOT USED
+RCAP2H . . . . . . . . . . . . . . .  D  ADDR  00CBH  NOT USED
+RCAP2L . . . . . . . . . . . . . . .  D  ADDR  00CAH  NOT USED
+RCLK . . . . . . . . . . . . . . . .  B  ADDR  00CDH  NOT USED
+RD . . . . . . . . . . . . . . . . .  B  ADDR  00B7H  NOT USED
+REN. . . . . . . . . . . . . . . . .  B  ADDR  009CH  NOT USED
+RESET. . . . . . . . . . . . . . . .  C  ADDR  0000H  NOT USED
+RI . . . . . . . . . . . . . . . . .  B  ADDR  0098H  NOT USED
+RS0. . . . . . . . . . . . . . . . .  B  ADDR  00D3H  NOT USED
+RS1. . . . . . . . . . . . . . . . .  B  ADDR  00D4H  NOT USED
+RXD. . . . . . . . . . . . . . . . .  B  ADDR  00B0H  NOT USED
+SADDR. . . . . . . . . . . . . . . .  D  ADDR  00A9H  NOT USED
+SADDR_0. . . . . . . . . . . . . . .  D  ADDR  00A9H  NOT USED
+SADDR_1. . . . . . . . . . . . . . .  D  ADDR  00AAH  NOT USED
+SADEN. . . . . . . . . . . . . . . .  D  ADDR  00B9H  NOT USED
+SADEN_0. . . . . . . . . . . . . . .  D  ADDR  00B9H  NOT USED
+SADEN_1. . . . . . . . . . . . . . .  D  ADDR  00BAH  NOT USED
+SBUF . . . . . . . . . . . . . . . .  D  ADDR  0099H  NOT USED
+SCON . . . . . . . . . . . . . . . .  D  ADDR  0098H  NOT USED
+SINT . . . . . . . . . . . . . . . .  C  ADDR  0023H  NOT USED
+SM0. . . . . . . . . . . . . . . . .  B  ADDR  009FH  NOT USED
+SM1. . . . . . . . . . . . . . . . .  B  ADDR  009EH  NOT USED
+SM2. . . . . . . . . . . . . . . . .  B  ADDR  009DH  NOT USED
+SP . . . . . . . . . . . . . . . . .  D  ADDR  0081H  NOT USED
+SPCON. . . . . . . . . . . . . . . .  D  ADDR  00C3H  NOT USED
+SPCR . . . . . . . . . . . . . . . .  D  ADDR  00D5H  NOT USED
+SPDAT. . . . . . . . . . . . . . . .  D  ADDR  00C5H  NOT USED
+SPDR . . . . . . . . . . . . . . . .  D  ADDR  0086H  NOT USED
+SPSR . . . . . . . . . . . . . . . .  D  ADDR  00AAH  NOT USED
+SPSTA. . . . . . . . . . . . . . . .  D  ADDR  00C4H  NOT USED
+T0 . . . . . . . . . . . . . . . . .  B  ADDR  00B4H  NOT USED
+T1 . . . . . . . . . . . . . . . . .  B  ADDR  00B5H  NOT USED
+T2CON. . . . . . . . . . . . . . . .  D  ADDR  00C8H  NOT USED
+T2MOD. . . . . . . . . . . . . . . .  D  ADDR  00C9H  NOT USED
+TB8. . . . . . . . . . . . . . . . .  B  ADDR  009BH  NOT USED
+TCLK . . . . . . . . . . . . . . . .  B  ADDR  00CCH  NOT USED
+TCON . . . . . . . . . . . . . . . .  D  ADDR  0088H  NOT USED
+TF0. . . . . . . . . . . . . . . . .  B  ADDR  008DH  NOT USED
+TF1. . . . . . . . . . . . . . . . .  B  ADDR  008FH  NOT USED
+TF2. . . . . . . . . . . . . . . . .  B  ADDR  00CFH  NOT USED
+TH0. . . . . . . . . . . . . . . . .  D  ADDR  008CH  NOT USED
+TH1. . . . . . . . . . . . . . . . .  D  ADDR  008DH  NOT USED
+TH2. . . . . . . . . . . . . . . . .  D  ADDR  00CDH  NOT USED
+TI . . . . . . . . . . . . . . . . .  B  ADDR  0099H  NOT USED
+TIMER0 . . . . . . . . . . . . . . .  C  ADDR  000BH  NOT USED
+TIMER1 . . . . . . . . . . . . . . .  C  ADDR  001BH  NOT USED
+TIMER2 . . . . . . . . . . . . . . .  C  ADDR  002BH  NOT USED
+TL0. . . . . . . . . . . . . . . . .  D  ADDR  008AH  NOT USED
+TL1. . . . . . . . . . . . . . . . .  D  ADDR  008BH  NOT USED
+TL2. . . . . . . . . . . . . . . . .  D  ADDR  00CCH  NOT USED
+TMOD . . . . . . . . . . . . . . . .  D  ADDR  0089H  NOT USED
+TR0. . . . . . . . . . . . . . . . .  B  ADDR  008CH  NOT USED
+TR1. . . . . . . . . . . . . . . . .  B  ADDR  008EH  NOT USED
+TR2. . . . . . . . . . . . . . . . .  B  ADDR  00CAH  NOT USED
+TXD. . . . . . . . . . . . . . . . .  B  ADDR  00B1H  NOT USED
+WDTCON . . . . . . . . . . . . . . .  D  ADDR  00A7H  NOT USED
+WDTPRG . . . . . . . . . . . . . . .  D  ADDR  00A7H  NOT USED
+WDTRST . . . . . . . . . . . . . . .  D  ADDR  00A6H  NOT USED
+WR . . . . . . . . . . . . . . . . .  B  ADDR  00B6H  NOT USED
